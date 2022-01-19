@@ -7,9 +7,15 @@ li {
   list-style-position: outside;
 }
 
+#errors {
+  margin: 0;
+  color: red;
+  font-size: 12px;
+}
+
 #output {
   display: block;
-  margin-top: 15px;
+  margin-top: 0;
   resize: none;
 }
 
@@ -20,4 +26,16 @@ li {
 #specifics label {
   display: inline-block;
   width: 90px;
+}
+
+#status {
+  height: 90px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#statuslog {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 14px;
 }
