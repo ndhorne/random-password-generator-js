@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -90,7 +90,7 @@
       <li>
         <input type="checkbox" id="excludeduplicates">
         <label
-          for="excludeduplicates" title="Password(s) comprise unique characters"
+          for="excludeduplicates" title="Passwords comprise unique characters"
         >
           Exclude duplicate characters
         </label>
@@ -116,10 +116,16 @@
     <button id="about" title="About Random Password Generator">About</button>
   </div>
   
-  <details id="status">
+  <!--
+  <details id="statusdetails">
     <summary id="statussummary">Status</summary>
     <pre id="statuslog">OK</pre>
   </details>
+  -->
+  
+  <div id="statusdiv">
+    <pre id="statuslog">OK</pre>
+  </div>
   
   <script src="randpass.js"></script>
 </body>
